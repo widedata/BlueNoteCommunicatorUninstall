@@ -1,5 +1,5 @@
-# BlueNoteCommunicatorUninstall
-Powershell script that cleverly, but natively, removes BlueNote. 
+# BlueNote Communicator Uninstall
+Had an instance where we needed to remove, en masse, BlueNote Communicator from a good number of workstations. Upon realization that there was no way to automate uninstall natively I wrote this powershell script that cleverly, but still natively, removes BlueNote. 
 
 It will 
 1) find the path of the current install's installer 
