@@ -8,7 +8,7 @@ $uninstaller_path = "C:$uninstaller_path"
 $path = Split-Path $uninstaller_path -Parent
 
 # Forces execution of the string to extract the installer contents into a subdirectory
-&$uninstaller_path /extract |Out-Null
+&$path\bluenotesetup.exe /extract |Out-Null
 
 # Lets get the subdirectory folder path
 $subpath = Get-ChildItem -Path "$path" -Directory
